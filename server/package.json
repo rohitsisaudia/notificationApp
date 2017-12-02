@@ -1,0 +1,15 @@
+{
+  "name": "sisu_ws",
+  "version": "1.0.0",
+  "description": "Websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.24",
+    "ws": "^1.1.1"
+  }
+}

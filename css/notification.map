@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/notification.css",
+	"sources": [
+		"../sass/notification.sass"
+	],
+	"sourcesContent": [
+		"\n$ff: \"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", \"Helvetica\";\n\n\n\nbody {\n  margin: 10px;\n  padding: 0;\n  color: #9A9A9A;\n  font-family: $ff; }\n\nheader {\n  width: 100%; }\n\n.border {\n  border: 1px solid #9A9A9A; }\n\n.centered {\n  text-align: center; }\n\n#todaysDate {\n  font-size: 1.5em; }\n\n.notificationBox {\n  border: 1px solid #9A9A9A; }\n\n#notificationBlock {\n  width: 100%; }\n\n#notificationSummary {\n  font-size: 1.2em;\n  span {\n    font-size: 2.5em;\n    color: #4CA6FF; } }\n\n#eachNotification {\n  height: 70px;\n  p {\n    margin-left: 10px; } }\n\n.verticalOverflow {\n  height: 400px;\n  overflow-y: auto; }\n\n.tm {\n  margin-top: 30px; }\n"
+	],
+	"mappings": ";AAKA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,CAAE;EACX,KAAK,EAAE,OAAQ;EACf,WAAW,EARR,qBAAqB,EAAE,sBAAsB,EAAE,gBAAgB,EAAE,WAAW;CAQ5D;;;AAErB,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAK;CAAG;;;AAEjB,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,iBAAkB;CAAG;;;AAE/B,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,MAAO;CAAG;;;AAExB,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,KAAM;CAAG;;;AAEtB,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,iBAAkB;CAAG;;;AAE/B,AAAA,kBAAkB,CAAC;EACjB,KAAK,EAAE,IAAK;CAAG;;;AAEjB,AAAA,oBAAoB,CAAC;EACnB,SAAS,EAAE,KAAM;CAGK;;;AAJxB,AAEE,oBAFkB,CAElB,IAAI,CAAC;EACH,SAAS,EAAE,KAAM;EACjB,KAAK,EAAE,OAAQ;CAAG;;;AAEtB,AAAA,iBAAiB,CAAC;EAChB,MAAM,EAAE,IAAK;CAEY;;;AAH3B,AAEE,iBAFe,CAEf,CAAC,CAAC;EACA,WAAW,EAAE,IAAK;CAAG;;;AAEzB,AAAA,iBAAiB,CAAC;EAChB,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,IAAK;CAAG;;;AAEtB,AAAA,GAAG,CAAC;EACF,UAAU,EAAE,IAAK;CAAG",
+	"names": []
+}

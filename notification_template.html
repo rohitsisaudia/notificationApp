@@ -1,0 +1,31 @@
+<div class = "col-md-4 verticalOverflow pull-left tm">
+			<div class="border" id="todaysDate">
+					{{today | date : 'EEEE MMM d, yyyy'}}
+			</div>
+
+
+
+
+			<div class="border centered" id = "notificationSummary">
+				<p>Assigned Tasks : <span>{{ (myNotifications | filter:"task":type).length }}</span>
+				<br />
+				Reminders : <span>{{ (myNotifications | filter:"reminder":type).length }}</span>
+				<br />
+				Notifications : <span> {{ (myNotifications | filter:"notification":type).length }} </span></p>
+			</div>
+
+
+
+
+			<div ng-repeat = "notification in myNotifications | orderBy:'-date'">
+				<div id = "eachNotification" class="border">
+					<p><b>{{notification["date"] | date: 'EEEE MMM d, yyyy hh:mm:ss:a'}}</b><br />
+					{{notification["type"]}}: {{notification["text"]}} <a href="{{notification['link']}}">View Details></a></p>
+				</div>
+			</div>
+
+
+
+
+</div>
+

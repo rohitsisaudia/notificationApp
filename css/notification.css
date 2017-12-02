@@ -1,0 +1,71 @@
+/* line 6, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+body {
+  margin: 10px;
+  padding: 0;
+  color: #9A9A9A;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica";
+}
+
+/* line 12, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+header {
+  width: 100%;
+}
+
+/* line 15, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+.border {
+  border: 1px solid #9A9A9A;
+}
+
+/* line 18, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+.centered {
+  text-align: center;
+}
+
+/* line 21, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#todaysDate {
+  font-size: 1.5em;
+}
+
+/* line 24, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+.notificationBox {
+  border: 1px solid #9A9A9A;
+}
+
+/* line 27, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#notificationBlock {
+  width: 100%;
+}
+
+/* line 30, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#notificationSummary {
+  font-size: 1.2em;
+}
+
+/* line 32, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#notificationSummary span {
+  font-size: 2.5em;
+  color: #4CA6FF;
+}
+
+/* line 36, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#eachNotification {
+  height: 70px;
+}
+
+/* line 38, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+#eachNotification p {
+  margin-left: 10px;
+}
+
+/* line 41, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+.verticalOverflow {
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* line 45, C:/Users/psisaudi/Desktop/Notifications 2/Notifications 2/sass/notification.sass */
+.tm {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=../css/notification.map */
